@@ -1,0 +1,341 @@
+/* Smooth Scroll */
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body */
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+
+/* Navigation Bar */
+
+nav{
+    width: 100%;
+
+    padding: 18px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+    backdrop-filter: blur(10px);
+
+    transition: 0.3s;
+
+    z-index: 1000;
+}
+
+
+/* Scroll Effect */
+
+.scrolled{
+    background-color: black;
+
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+}
+
+
+/* Logo */
+
+.logo{
+    color: white;
+}
+
+
+/* Nav Links */
+
+ul{
+    display: flex;
+    gap: 25px;
+
+    list-style: none;
+}
+
+
+/* Links */
+
+a{
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+
+/* Hover Effect */
+
+a:hover{
+    color: #ff9800;
+}
+
+
+/* Hero Section */
+
+.hero{
+    height: 100vh;
+
+    background: linear-gradient(to right, #141e30, #243b55);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    color: white;
+
+    padding: 20px;
+}
+
+
+/* Hero Content */
+
+.hero-content{
+    max-width: 700px;
+}
+
+
+/* Hero Heading */
+
+.hero h1{
+    font-size: 60px;
+
+    margin-bottom: 20px;
+}
+
+
+/* Hero Paragraph */
+
+.hero p{
+    font-size: 20px;
+
+    line-height: 1.6;
+
+    margin-bottom: 30px;
+}
+
+
+/* Button */
+
+button{
+    padding: 12px 30px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background-color: #ff9800;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+/* Button Hover */
+
+button:hover{
+    background-color: #e68900;
+
+    transform: scale(1.05);
+}
+
+
+/* Features Section */
+
+.features{
+    padding: 100px 40px;
+
+    text-align: center;
+
+    background-color: white;
+}
+
+
+/* Features Heading */
+
+.features h1{
+    font-size: 40px;
+
+    margin-bottom: 50px;
+}
+
+
+/* Cards Container */
+
+.feature-container{
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+
+/* Cards */
+
+.card{
+    width: 280px;
+
+    padding: 30px;
+
+    background-color: #f4f4f4;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+
+    transition: 0.3s;
+}
+
+
+/* Card Hover */
+
+.card:hover{
+    transform: translateY(-10px);
+
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
+
+
+/* Card Heading */
+
+.card h2{
+    margin-bottom: 15px;
+}
+
+
+/* Card Paragraph */
+
+.card p{
+    line-height: 1.6;
+}
+
+
+/* About Section */
+
+.about{
+    padding: 100px 40px;
+
+    text-align: center;
+
+    background-color: #f9f9f9;
+}
+
+
+/* About Heading */
+
+.about h1{
+    font-size: 40px;
+
+    margin-bottom: 20px;
+}
+
+
+/* About Paragraph */
+
+.about p{
+    max-width: 800px;
+
+    margin: auto;
+
+    line-height: 1.8;
+
+    font-size: 18px;
+}
+
+
+/* Contact Section */
+
+.contact{
+    padding: 100px 40px;
+
+    text-align: center;
+
+    background-color: #141e30;
+
+    color: white;
+}
+
+
+/* Contact Heading */
+
+.contact h1{
+    font-size: 40px;
+
+    margin-bottom: 20px;
+}
+
+
+/* Contact Text */
+
+.contact p{
+    margin-top: 10px;
+
+    font-size: 18px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px){
+
+    nav{
+        flex-direction: column;
+
+        gap: 15px;
+
+        padding: 15px 20px;
+    }
+
+    ul{
+        gap: 15px;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    .hero h1{
+        font-size: 40px;
+    }
+
+    .hero p{
+        font-size: 16px;
+    }
+
+    .features h1,
+    .about h1,
+    .contact h1{
+        font-size: 32px;
+    }
+
+}
