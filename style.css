@@ -1,11 +1,6 @@
-/* Smooth Scroll */
-
 html{
     scroll-behavior: smooth;
 }
-
-
-/* Reset */
 
 *{
     margin: 0;
@@ -13,15 +8,9 @@ html{
     box-sizing: border-box;
 }
 
-
-/* Body */
-
 body{
     font-family: Arial, sans-serif;
 }
-
-
-/* Navigation Bar */
 
 nav{
     width: 100%;
@@ -45,7 +34,7 @@ nav{
 }
 
 
-/* Scroll Effect */
+
 
 .scrolled{
     background-color: black;
@@ -54,14 +43,14 @@ nav{
 }
 
 
-/* Logo */
+
 
 .logo{
     color: white;
 }
 
 
-/* Nav Links */
+
 
 ul{
     display: flex;
@@ -70,8 +59,6 @@ ul{
     list-style: none;
 }
 
-
-/* Links */
 
 a{
     text-decoration: none;
@@ -84,14 +71,13 @@ a{
 }
 
 
-/* Hover Effect */
+
 
 a:hover{
     color: #ff9800;
 }
 
 
-/* Hero Section */
 
 .hero{
     height: 100vh;
@@ -110,14 +96,13 @@ a:hover{
 }
 
 
-/* Hero Content */
 
 .hero-content{
     max-width: 700px;
 }
 
 
-/* Hero Heading */
+
 
 .hero h1{
     font-size: 60px;
@@ -126,7 +111,7 @@ a:hover{
 }
 
 
-/* Hero Paragraph */
+
 
 .hero p{
     font-size: 20px;
@@ -137,7 +122,6 @@ a:hover{
 }
 
 
-/* Button */
 
 button{
     padding: 12px 30px;
@@ -158,7 +142,7 @@ button{
 }
 
 
-/* Button Hover */
+
 
 button:hover{
     background-color: #e68900;
@@ -167,7 +151,7 @@ button:hover{
 }
 
 
-/* Features Section */
+
 
 .features{
     padding: 100px 40px;
@@ -178,7 +162,7 @@ button:hover{
 }
 
 
-/* Features Heading */
+
 
 .features h1{
     font-size: 40px;
@@ -187,7 +171,7 @@ button:hover{
 }
 
 
-/* Cards Container */
+
 
 .feature-container{
     display: flex;
@@ -200,7 +184,7 @@ button:hover{
 }
 
 
-/* Cards */
+
 
 .card{
     width: 280px;
@@ -217,8 +201,6 @@ button:hover{
 }
 
 
-/* Card Hover */
-
 .card:hover{
     transform: translateY(-10px);
 
@@ -226,21 +208,21 @@ button:hover{
 }
 
 
-/* Card Heading */
+
 
 .card h2{
     margin-bottom: 15px;
 }
 
 
-/* Card Paragraph */
+
 
 .card p{
     line-height: 1.6;
 }
 
 
-/* About Section */
+
 
 .about{
     padding: 100px 40px;
@@ -251,7 +233,7 @@ button:hover{
 }
 
 
-/* About Heading */
+
 
 .about h1{
     font-size: 40px;
@@ -260,7 +242,7 @@ button:hover{
 }
 
 
-/* About Paragraph */
+
 
 .about p{
     max-width: 800px;
@@ -273,7 +255,7 @@ button:hover{
 }
 
 
-/* Contact Section */
+
 
 .contact{
     padding: 100px 40px;
@@ -286,7 +268,7 @@ button:hover{
 }
 
 
-/* Contact Heading */
+
 
 .contact h1{
     font-size: 40px;
@@ -295,7 +277,7 @@ button:hover{
 }
 
 
-/* Contact Text */
+
 
 .contact p{
     margin-top: 10px;
@@ -304,7 +286,7 @@ button:hover{
 }
 
 
-/* Responsive Design */
+
 
 @media (max-width: 768px){
 
